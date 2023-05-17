@@ -106,14 +106,41 @@
                     <view key="view" contentMode="scaleToFill" id="WNH-X6-wgY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1I-Nb-k8T">
+                                <rect key="frame" x="200" y="409" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="y4k-re-W9h"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="FjQ-1g-kW1"/>
+                    <connections>
+                        <segue destination="yRw-SB-QdO" kind="show" id="BjS-io-azP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oL2-mh-ePA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1244" y="1692"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="42D-Ym-SBQ">
+            <objects>
+                <viewController id="yRw-SB-QdO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2D7-QB-LAN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zZU-dY-WeL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="riO-HQ-XUS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obv-Th-zti" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2262" y="1724"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="h3t-f4-5Km">
