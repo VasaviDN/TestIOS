@@ -62,10 +62,29 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="G08-Bd-2Da"/>
+                    <connections>
+                        <segue destination="YFP-Yn-4ai" kind="show" id="9Hy-ck-bXf"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PSq-u7-oAQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="121" y="931"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jO6-zz-Ueg">
+            <objects>
+                <viewController id="YFP-Yn-4ai" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zBo-ff-q3E">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Bmy-Te-3eP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DUx-CT-qwl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YlY-1q-YdI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040" y="931"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="GNC-cL-QyQ">
